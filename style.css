@@ -1,0 +1,29 @@
+body{
+    background-image: url("images/jpg2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+background-position: top;
+border-style: groove;
+border-radius: 6px;
+}
+p{
+    margin: 40px;
+}
+nav ul{
+    float: top right;
+    text-align: right;
+    list-style: none;
+}
+nav li{
+    margin: 12px;
+    display: inline-block;
+line-height: 80px;
+}
+nav a{
+    color: blue;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    border: 2px solid black;
+    transition: 5s;
+}
