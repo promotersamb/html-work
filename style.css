@@ -27,3 +27,12 @@ a.active, a:hover{
     border: 2px solid black;
     transition: 5s;
 }
+table{
+    border: 1px solid red;
+    margin: 2rem;
+}
+p{
+  background-color: red;
+  color: blue;
+  
+}
